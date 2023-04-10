@@ -1,0 +1,98 @@
+-VZOROVÉ DATA-
+
+#DATOV0 TYPY:
+
+-Integer-
+Projde:
+0
+1
+25
+Neprojde:
+00
+02
+
+-Hexadecimální čísla-
+Projde:
+0xA
+0x2B
+0xAC7
+Neporjde:
+0x
+0x 34
+
+-Binární čísla-
+Projde:
+b010011
+b1110
+Neporjde:
+b 01
+b210
+
+-Array-
+Projde:
+[1,2,3,4,5]
+[0xA,0x7,0x8C,0xF17]
+[b001,b11,b0101]
+Neprojde:
+[1,0xBC,34,b010]
+
+#OPERACE
+-nepovolují se zdvojené operátory ++ **
+
+-Sčítání- +
+2+2 = 4
+b11+b001 = b100
+0xA1+0x34 = D5
+Datové typy nejde mezi sebou kombinovat
+2+b001 = error
+b001+0xFF = error
++22 = error
+22+ = error
+
+-Násobění- *
+2*2 = 4
+b11*b001 = b11
+0xA1*0x34 = 0x20B4
+Datové typy nejde mezi sebou kombinovat
+2*b001 = error
+b00*0xFF = error
+*22 = error
+22* = error
+
+-Závorky- ()
+Projde:
+(6) = 6
+(3+4) = 7
+(3*3) = 9
+(2+2)*(2+2) = 16
+Neporjde:
+(2+1) + (1
+2+1)+1
+
+
+-Operátor navíc - Logaritmus - log_a x
+log_10 22 = 1,342
+log_2 56 = 5,807
+log_0xA 0x34 = 1,531
+log_b010 b111 = 2,807
+Datové typy nejde mezi sebou kombinovat
+log_2 b001 = error
+log_b00 0xFF = error
+
+#NĚCO UNIKÁTNÍHO
+-  Průnik dvou polí, prvky nově vzniklého pole sečteme = x, uděláme log z čísla x o základu a (log_a x)
+
+Projde:
+prunik([],[],a)
+prunik([3,7,8,2],[2,5,6,7],4) = [2,7] = 2+7 = 9 = log_4 9 = 1,584
+prunik([0xA,0x12,0xCB3,0xE45],[0xFF,0x345,0xA,0x12],4) = [0xA,0x12] = 10+18 = 28 = log_4 28 = 2,403
+prunik([b100,b111,b10,b1010],[b10,b111,b1000,b001],4) = [b10,b111] = 2+7 = 9 = log_4 9 = 1,584
+
+Neprojde:
+log 4 9
+log_ 4 9
+log4 9
+log_4
+log 9
+
+
