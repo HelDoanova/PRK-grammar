@@ -1,0 +1,57 @@
+#Test lexikálního analyzátoru
+
+#Data užitá k testování - špatné hodnoty
+
+#Samotné hodnoty:
+#Integer:
+00
+02
+
+#Hexa
+0x
+0x 34
+0xaf
+
+#Binary
+b 01
+b210
+
+#Array
+(1,0xBC,34,b010)
+
+#Logaritmus
+log 4 9
+log_ 4 9
+log4 9
+log_4
+log 9
+
+#Nespárované sčítání:
+7+
++b1101
++0xAC
+
+#Nespárované násobení:
+7*
+*b1101
+*0xAC
+
+#Zdvojené operátory
+7**7
+7*+b011
+0xAA++0
+8+9+*b1001+0xDD
+
+#Nespírvné závorky
+(2+1) + (b110
+2+1)*(0xCA+b11)
+((9+8)*b10)*(0xAA+0xBB))
+
+#NĚCO UNIKÁTNÍHO
+#Průnik dvou polí, prvky nově vzniklého pole sečteme = x, uděláme log z čísla x o základu a (log_a x) --> prunik([],[],a)
+
+prunik([3,7,8,2],[2,5,6,7])
+prunik([b100,b111,b10,b1010],4)
+prunik(4)
+prunik()
+prunik([3,7,8,2],[b100,b111,b10,b1010],[0xFF,0x345,0xA,0x12])
