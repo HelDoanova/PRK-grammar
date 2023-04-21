@@ -1,19 +1,30 @@
-# This is a general makefile used for the gitlab CI/CD.
-ll_u2 := lenka_language/U2_lex_analyzator/flex
-ll_u3 := lenka_language/U3_synt_analyzator/yacc
-ll_u4 := lenka_language/U4_calculator/yacc 
+MAKE=make
+GCC=gcc
 
-ll_tasks := $(ll_u2) $(ll_u3) $(ll_u4)
 
-.PHONY: all ll_all $(ll_tasks)
+BINDIR="./bin"
+BINFILE="ll.bin"
+TESTDIR="../testfiles"
+TEST_OK_FILE="test_ok.txt"
+TEST_NOOK_FILE="test_nook.txt"
 
-all: ll_all praxis_all
+all: clean
+	@$(MAKE) -s ll.bin 
+	@$(MAKE) -s test_ok
+	@$(MAKE) -s test_nook
+	@if [ $(PRINT_OUTPUT) ]; then cat $(BINDIR)/$(TEST_OK_FILE).report; fi
+	@if [ $(PRINT_OUTPUT) ]; then cat $(BINDIR)/$(TEST_NOOK_FILE).report; fi
 
-ll_all: $(ll_tasks)
+%.bin: %.lex
+	@flex $< 
+	@$(GCC) $(GCCOPTS) lex.yy.c
+	@mv a.out $(BINDIR)/$@
 
-$(ll_tasks):
-	$(MAKE) --directory=$@ 
-	
+test_ok:
+	@./$(BINDIR)/ll.bin < $(TESTDIR)/$(TEST_OK_FILE) >$(BINDIR)/$(TEST_OK_FILE).report
+test_nook:
+	@./$(BINDIR)/ll.bin < $(TESTDIR)/$(TEST_NOOK_FILE) >$(BINDIR)/$(TEST_NOOK_FILE).report
 
-praxis_all:
-	echo "No rules for praxis defined yet."
+
+clean:
+	@rm -rf $(BINDIR)/*
