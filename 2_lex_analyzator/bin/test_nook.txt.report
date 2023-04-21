@@ -1,3 +1,18 @@
+Void line detected.
+Void line detected.
+Line detected.
+Line detected.
+Void line detected.
+Line detected.
+Line detected.
+Line detected.
+Void line detected.
+Line detected.
+Line detected.
+Void line detected.
+Line detected.
+Line detected.
+Void line detected.
 Line detected.
 Line detected.
 Line detected.
@@ -5,60 +20,46 @@ Line detected.
 Line detected.
 Line detected.
 Line detected.
+Void line detected.
+Line detected.
+Line detected.
+Line detected.
+Void line detected.
+Line detected.
+Line detected.
+Line detected.
+Void line detected.
+Line detected.
+Line detected.
+Line detected.
+Line detected.
+Void line detected.
+Line detected.
+Line detected.
+Line detected.
+Void line detected.
+Void line detected.
 Line detected.
 Line detected.
 Line detected.
 Line detected.
 Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-Line detected.
-72 of total errors detected in input file.
-50 of int numbers detected.
-16 of bin numbers detected.
-12 of hexa numbers detected.
-14 of comment lines canceled.
+27 of total errors detected in input file.
+55 of int numbers detected.
+17 of bin numbers detected.
+13 of hexa numbers detected.
+13 of comment lines canceled.
 15 of add operators detected.
 10 of multiplication operators detected.
 7 of opening brackets detected.
 13 of closing brackets detected.
-6 of start of array detected.
-6 of end of array detected.
+7 of start of array detected.
+7 of end of array detected.
 4 of logarithm base detected.
 3 of logarithm value detected.
 5 of prunik function detected.
-25 of comma detected.
-0 of void lines ignored.
+28 of comma detected.
+12 of void lines ignored.
 File processed sucessfully.
-Totally 45 of valid code lines in file processed.
+Totally 34 of valid code lines in file processed.
 File processed sucessfully.

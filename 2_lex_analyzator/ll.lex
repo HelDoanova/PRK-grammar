@@ -31,9 +31,10 @@ int process_pattern(int number, char *Message);
 \*      {mpy_ops=process_pattern(mpy_ops,"Multiplication operator detected.");}
 \(      {br_left=process_pattern(br_left,"Opening bracket detected.");}
 \)	{br_right=process_pattern(br_right,"Closing bracket detected.");} 
-[0-9]+	{int_values=process_pattern(int_values,"Ineger number detected.");}
+[1-9][0-9]*	{int_values=process_pattern(int_values,"Ineger number detected.");}
+0	{int_values=process_pattern(int_values,"Ineger number detected.");}
 b[0-1]+ {bin_values=process_pattern(bin_values,"Binary number detected.");}
-"0x"[0-9A-F]+ 	{hexa_values=process_pattern(hexa_values,"Hexadecimal number detected.");}
+0x[0-9A-F]+ 	{hexa_values=process_pattern(hexa_values,"Hexadecimal number detected.");}
 \[	{array_start=process_pattern(array_start,"Start of array detected.");}   
 \] 	{array_end=process_pattern(array_end,"End of array detected.");} 
 log_ 	{logarithm_base=process_pattern(logarithm_base,"Logarithm base detected.");}
