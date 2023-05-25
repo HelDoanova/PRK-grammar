@@ -1,0 +1,506 @@
+Entering the main
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule2---------------
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule22
+Rule23
+Rule23
+Rule23
+Rule23
+Rule18 - integer array
+Rule16
+Rule0 - ARRAY
+Syntax OK, Rule1------------
+Rule26
+Rule27
+Rule27
+Rule27
+Rule17 - hexa array
+Rule16
+Rule0 - ARRAY
+Syntax OK, Rule1------------
+Rule24
+Rule25
+Rule25
+Rule19 - binary array
+Rule16
+Rule0 - ARRAY
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule14 - INTEGER
+Rule11 - LOGARITMUS
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule14 - INTEGER
+Rule11 - LOGARITMUS
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule13 - HEXA
+Rule13 - HEXA
+Rule11 - LOGARITMUS
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule15 - BINARY
+Rule11 - LOGARITMUS
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule15 - BINARY
+Rule11 - LOGARITMUS
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule13 - HEXA
+Rule11 - LOGARITMUS
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule13 - HEXA
+Rule11 - LOGARITMUS
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Syntax OK, Rule1------------
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule10
+Rule15 - BINARY
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule13 - HEXA
+Rule10
+Rule13 - HEXA
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule15 - BINARY
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule13 - HEXA
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule10
+Rule13 - HEXA
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Rule9
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Rule9
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule13 - HEXA
+Rule10
+Rule13 - HEXA
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Rule9
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Rule9
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Rule9
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Rule9
+Rule15 - BINARY
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3
+Rule9
+Rule14 - INTEGER
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - +
+Rule3
+Rule9
+Rule8
+Rule7 - *
+Rule7 - *
+Rule6
+Rule5
+Rule3
+Rule9
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule22
+Rule23
+Rule23
+Rule23
+Rule18 - integer array
+Rule16
+Rule22
+Rule23
+Rule23
+Rule23
+Rule18 - integer array
+Rule16
+Rule14 - INTEGER
+Rule20
+Rule12 - PRUNIK
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule26
+Rule27
+Rule27
+Rule27
+Rule17 - hexa array
+Rule16
+Rule26
+Rule27
+Rule27
+Rule27
+Rule17 - hexa array
+Rule16
+Rule13 - HEXA
+Rule20
+Rule12 - PRUNIK
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule24
+Rule25
+Rule25
+Rule25
+Rule19 - binary array
+Rule16
+Rule24
+Rule25
+Rule25
+Rule25
+Rule19 - binary array
+Rule16
+Rule15 - BINARY
+Rule20
+Rule12 - PRUNIK
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule22
+Rule23
+Rule23
+Rule23
+Rule18 - integer array
+Rule16
+Rule24
+Rule25
+Rule25
+Rule25
+Rule19 - binary array
+Rule16
+Rule13 - HEXA
+Rule20
+Rule12 - PRUNIK
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule22
+Rule23
+Rule23
+Rule23
+Rule18 - integer array
+Rule16
+Rule26
+Rule27
+Rule27
+Rule27
+Rule17 - hexa array
+Rule16
+Rule15 - BINARY
+Rule20
+Rule12 - PRUNIK
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
+Rule24
+Rule25
+Rule25
+Rule25
+Rule19 - binary array
+Rule16
+Rule26
+Rule27
+Rule27
+Rule27
+Rule17 - hexa array
+Rule16
+Rule14 - INTEGER
+Rule20
+Rule12 - PRUNIK
+Rule8
+Rule6
+Rule5
+Rule3
+Syntax OK, Rule1------------
