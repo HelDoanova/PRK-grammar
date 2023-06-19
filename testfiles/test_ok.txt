@@ -27,9 +27,9 @@ log_10-22
 log_2-56
 log_0xA-0x34
 log_b010-b111
-log_2-b001
+log_2-b101
 log_3-0xAA
-log_b00-0xFF
+log_b011-0xFF
 
 #Sčítání:
 2+2
