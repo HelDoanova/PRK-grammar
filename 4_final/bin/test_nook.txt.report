@@ -1,0 +1,283 @@
+Entering the main
+syntax error
+error: #Test lexikálního analyzátoru
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Data užitá k testování - špatné hodnoty
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Integer:
+Entering the main
+Rule14 - INTEGER: 0
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 0
+syntax error
+error: 00
+Entering the main
+Rule14 - INTEGER: 0
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 0
+syntax error
+error: 02
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Hexa:
+Entering the main
+Rule14 - INTEGER: 0
+Rule10
+error: 0x
+Entering the main
+Rule14 - INTEGER: 0
+Rule10
+error: 0x 34
+Entering the main
+Rule14 - INTEGER: 0
+Rule10
+error: 0xaf
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Binary
+Entering the main
+error: b 01
+Entering the main
+error: b210
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Array
+Entering the main
+Rule14 - INTEGER: 1
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 1
+syntax error
+error: (1,0xBC,34,b010)
+Entering the main
+syntax error
+error: [1,0xBC,34,b010]
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Logaritmus
+Entering the main
+error: log 4-9
+Entering the main
+syntax error
+error: log_ 4-9
+Entering the main
+syntax error
+error: log_4 9
+Entering the main
+syntax error
+error: log_ 4 -9
+Entering the main
+error: log4 9
+Entering the main
+syntax error
+error: log_4
+Entering the main
+error: log 9
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Nespárované sčítání:
+Entering the main
+Rule14 - INTEGER: 7
+Rule10
+Rule8
+Rule6
+syntax error
+error: 7+
+Entering the main
+syntax error
+error: +b1101
+Entering the main
+syntax error
+error: +0xAC
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Nespárované násobení:
+Entering the main
+Rule14 - INTEGER: 7
+Rule10
+syntax error
+error: 7*
+Entering the main
+syntax error
+error: *b1101
+Entering the main
+syntax error
+error: *0xAC
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Zdvojené operátory
+Entering the main
+Rule14 - INTEGER: 7
+Rule10
+syntax error
+error: 7**7
+Entering the main
+Rule14 - INTEGER: 7
+Rule10
+syntax error
+error: 7*+b011
+Entering the main
+Rule13 - HEXA:  -> int 170
+Rule10
+Rule8
+Rule6
+syntax error
+error: 0xAA++0
+Entering the main
+Rule14 - INTEGER: 8
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER: 9
+Rule10
+Rule8
+Rule6
+syntax error
+error: 8+9+*b1001+0xDD
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #Nespírvné závorky
+Entering the main
+Rule14 - INTEGER: 2
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER: 1
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 1
+Rule3 - vysledek: 3
+Rule9 - (-)
+Rule8
+Rule6
+Rule15 - BINARY:  -> int 6
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 6
+syntax error
+error: (2+1) + (b110
+Entering the main
+Rule14 - INTEGER: 2
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER: 1
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 1
+Rule3 - vysledek: 3
+syntax error
+error: 2+1)*(0xCA+b11)
+Entering the main
+Rule14 - INTEGER: 9
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER: 8
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 8
+Rule3 - vysledek: 17
+Rule9 - (-)
+Rule15 - BINARY:  -> int 2
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 34
+Rule9 - (-)
+Rule13 - HEXA:  -> int 170
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA:  -> int 187
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 187
+Rule3 - vysledek: 357
+Rule9 - (-)
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 12138
+syntax error
+error: ((9+8)*b10)*(0xAA+0xBB))
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: #NĚCO UNIKÁTNÍHO
+Entering the main
+syntax error
+error: #Průnik dvou polí, prvky nově vzniklého pole sečteme = x, uděláme log z čísla x o základu a (log_a-x) --> prunik([],[],a)
+Entering the main
+syntax error
+error: 
+Entering the main
+syntax error
+error: prunik([3,7,8,2],[2,5,6,7])
+Entering the main
+syntax error
+error: prunik([b100,b111,b10,b1010],4)
+Entering the main
+syntax error
+error: prunik(4)
+Entering the main
+syntax error
+error: prunik()
+Entering the main
+syntax error
+error: prunik([3,7,8,2],[b100,b111,b10,b1010],[0xFF,0x345,0xA,0x12])

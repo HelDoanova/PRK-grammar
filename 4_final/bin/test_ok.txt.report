@@ -1,0 +1,520 @@
+Entering the main
+Rule14 - INTEGER: 0
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 0
+Integer|bin|hexa: 0|b0|0x0
+------------Syntax OK, Rule2------------
+
+Rule14 - INTEGER: 1
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 1
+Integer|bin|hexa: 1|b1|0x1
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 251
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 251
+Integer|bin|hexa: 251|b11111011|0xFB
+------------Syntax OK, Rule1------------
+
+Rule13 - HEXA:  -> int 10
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 10
+Integer|bin|hexa: 10|b1010|0xA
+------------Syntax OK, Rule1------------
+
+Rule13 - HEXA:  -> int 43
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 43
+Integer|bin|hexa: 43|b101011|0x2B
+------------Syntax OK, Rule1------------
+
+Rule13 - HEXA:  -> int 2759
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 2759
+Integer|bin|hexa: 2759|b101011000111|0xAC7
+------------Syntax OK, Rule1------------
+
+Rule15 - BINARY:  -> int 35
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 35
+Integer|bin|hexa: 35|b100011|0x23
+------------Syntax OK, Rule1------------
+
+Rule15 - BINARY:  -> int 14
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 14
+Integer|bin|hexa: 14|b1110|0xE
+------------Syntax OK, Rule1------------
+
+Rule22
+Rule23
+Rule23
+Rule23
+Rule23
+Rule18 - integer array: [1, 2, 3, 4, 5]
+Rule16
+Rule0 - ARRAY
+[1, 2, 3, 4, 5]
+------------Syntax OK, ArrayOk------------
+Rule20
+Rule21
+Rule21
+Rule21
+Rule17 - hexa array: [0xA, 0x7, 0x8C, 0xF17]
+Rule16
+Rule0 - ARRAY
+[10, 7, 140, 3863]
+------------Syntax OK, ArrayOk------------
+Rule24
+Rule25
+Rule25
+Rule19 - binary array: [b1, b11, b101]
+Rule16
+Rule0 - ARRAY
+[1, 3, 5]
+------------Syntax OK, ArrayOk------------
+Rule14 - INTEGER: 10
+Rule14 - INTEGER: 22
+Rule11 - LOGARITMUS: 
+1.342423
+------------Syntax OK, LogOk------------
+Rule14 - INTEGER: 2
+Rule14 - INTEGER: 56
+Rule11 - LOGARITMUS: 
+5.807355
+------------Syntax OK, LogOk------------
+Rule13 - HEXA:  -> int 10
+Rule13 - HEXA:  -> int 52
+Rule11 - LOGARITMUS: 
+1.716003
+------------Syntax OK, LogOk------------
+Rule15 - BINARY:  -> int 2
+Rule15 - BINARY:  -> int 7
+Rule11 - LOGARITMUS: 
+2.807355
+------------Syntax OK, LogOk------------
+Rule14 - INTEGER: 2
+Rule15 - BINARY:  -> int 1
+Rule11 - LOGARITMUS: 
+0.000000
+------------Syntax OK, LogOk------------
+Rule14 - INTEGER: 3
+Rule13 - HEXA:  -> int 170
+Rule11 - LOGARITMUS: 
+4.674805
+------------Syntax OK, LogOk------------
+Rule15 - BINARY:  -> int 1
+Rule13 - HEXA:  -> int 255
+Rule11 - LOGARITMUS: 
+inf
+------------Syntax OK, LogOk------------
+Rule14 - INTEGER: 2
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER: 1
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 1
+Rule3 - vysledek: 3
+Integer|bin|hexa: 3|b11|0x3
+------------Syntax OK, Rule1------------
+
+Rule15 - BINARY:  -> int 3
+Rule10
+Rule8
+Rule6
+Rule15 - BINARY:  -> int 1
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 1
+Rule3 - vysledek: 4
+Integer|bin|hexa: 4|b100|0x4
+------------Syntax OK, Rule1------------
+
+Rule13 - HEXA:  -> int 161
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA:  -> int 52
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 52
+Rule3 - vysledek: 213
+Integer|bin|hexa: 213|b11010101|0xD5
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 2
+Rule10
+Rule8
+Rule6
+Rule15 - BINARY:  -> int 1
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 1
+Rule3 - vysledek: 3
+Integer|bin|hexa: 3|b11|0x3
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 51
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA:  -> int 193
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 193
+Rule3 - vysledek: 244
+Integer|bin|hexa: 244|b11110100|0xF4
+------------Syntax OK, Rule1------------
+
+Rule15 - BINARY:  -> int 1
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA:  -> int 255
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 255
+Rule3 - vysledek: 256
+Integer|bin|hexa: 256|b100000000|0x100
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 2
+Rule10
+Rule14 - INTEGER: 2
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 4
+Integer|bin|hexa: 4|b100|0x4
+------------Syntax OK, Rule1------------
+
+Rule15 - BINARY:  -> int 3
+Rule10
+Rule15 - BINARY:  -> int 1
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 3
+Integer|bin|hexa: 3|b11|0x3
+------------Syntax OK, Rule1------------
+
+Rule13 - HEXA:  -> int 161
+Rule10
+Rule13 - HEXA:  -> int 52
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 8372
+Integer|bin|hexa: 8372|b10000010110100|0x20B4
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 2
+Rule10
+Rule15 - BINARY:  -> int 1
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 2
+Integer|bin|hexa: 2|b10|0x2
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 7
+Rule10
+Rule13 - HEXA:  -> int 178
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 1246
+Integer|bin|hexa: 1246|b10011011110|0x4DE
+------------Syntax OK, Rule1------------
+
+Rule15 - BINARY:  -> int 1
+Rule10
+Rule13 - HEXA:  -> int 255
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 255
+Integer|bin|hexa: 255|b11111111|0xFF
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 6
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 6
+Rule9 - (-)
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 6
+Integer|bin|hexa: 6|b110|0x6
+------------Syntax OK, Rule1------------
+
+Rule15 - BINARY:  -> int 5
+Rule10
+Rule8
+Rule6
+Rule15 - BINARY:  -> int 3
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 3
+Rule3 - vysledek: 8
+Rule9 - (-)
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 8
+Integer|bin|hexa: 8|b1000|0x8
+------------Syntax OK, Rule1------------
+
+Rule13 - HEXA:  -> int 29
+Rule10
+Rule13 - HEXA:  -> int 227
+Rule10
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 6583
+Rule9 - (-)
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 6583
+Integer|bin|hexa: 6583|b1100110110111|0x19B7
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 2
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER: 2
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 2
+Rule3 - vysledek: 4
+Rule9 - (-)
+Rule15 - BINARY:  -> int 7
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA:  -> int 161
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 161
+Rule3 - vysledek: 168
+Rule9 - (-)
+Rule8
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 672
+Integer|bin|hexa: 672|b1010100000|0x2A0
+------------Syntax OK, Rule1------------
+
+Rule14 - INTEGER: 6
+Rule10
+Rule8
+Rule6
+Rule14 - INTEGER: 6
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 6
+Rule3 - vysledek: 12
+Rule9 - (-)
+Rule15 - BINARY:  -> int 3
+Rule10
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 3
+Rule9 - (-)
+Rule14 - INTEGER: 6
+Rule10
+Rule8
+Rule6
+Rule13 - HEXA:  -> int 177
+Rule10
+Rule8
+Rule6
+Rule5
+Rule4 - + : 177
+Rule3 - vysledek: 183
+Rule9 - (-)
+Rule8
+Rule7 - *
+Rule7 - *
+Rule6
+Rule5
+Rule3 - vysledek: 6588
+Rule9 - (-)
+Rule8
+Rule6
+Rule5
+Rule3 - vysledek: 6588
+Integer|bin|hexa: 6588|b1100110111100|0x19BC
+------------Syntax OK, Rule1------------
+
+Rule22
+Rule23
+Rule23
+Rule23
+Rule18 - integer array: [3, 7, 8, 2]
+Rule16
+Rule22
+Rule23
+Rule23
+Rule23
+Rule18 - integer array: [2, 5, 6, 7]
+Rule16
+Rule26 
+Rule12 - PRUNIK
+[7, 2]
+9
+------------Syntax OK, PrunikOk------------
+Rule20
+Rule21
+Rule21
+Rule21
+Rule17 - hexa array: [0xA, 0x12, 0xCB3, 0xE45]
+Rule16
+Rule20
+Rule21
+Rule21
+Rule21
+Rule17 - hexa array: [0xFF, 0x345, 0xA, 0x12]
+Rule16
+Rule26 
+Rule12 - PRUNIK
+[10, 18]
+28
+------------Syntax OK, PrunikOk------------
+Rule24
+Rule25
+Rule25
+Rule25
+Rule19 - binary array: [b100, b111, b10, b1010]
+Rule16
+Rule24
+Rule25
+Rule25
+Rule25
+Rule19 - binary array: [b10, b111, b1000, b1]
+Rule16
+Rule26 
+Rule12 - PRUNIK
+[7, 2]
+9
+------------Syntax OK, PrunikOk------------
+Rule22
+Rule23
+Rule23
+Rule23
+Rule18 - integer array: [2, 5, 6, 7]
+Rule16
+Rule24
+Rule25
+Rule25
+Rule25
+Rule19 - binary array: [b10, b111, b1000, b1]
+Rule16
+Rule26 
+Rule12 - PRUNIK
+[2, 7]
+9
+------------Syntax OK, PrunikOk------------
+Rule22
+Rule23
+Rule23
+Rule23
+Rule18 - integer array: [2, 5, 6, 7]
+Rule16
+Rule20
+Rule21
+Rule21
+Rule21
+Rule17 - hexa array: [0xA, 0x12, 0xCB3, 0xE45]
+Rule16
+Rule26 
+Rule12 - PRUNIK
+[]
+0
+------------Syntax OK, PrunikOk------------
+Rule24
+Rule25
+Rule25
+Rule25
+Rule19 - binary array: [b100, b111, b10, b1010]
+Rule16
+Rule20
+Rule21
+Rule21
+Rule21
+Rule17 - hexa array: [0xFF, 0x345, 0xA, 0x12]
+Rule16
+Rule26 
+Rule12 - PRUNIK
+[10]
+10
+------------Syntax OK, PrunikOk------------
