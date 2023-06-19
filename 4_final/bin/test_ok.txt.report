@@ -119,19 +119,19 @@ Rule11 - LOGARITMUS:
 2.807355
 ------------Syntax OK, LogOk------------
 Rule14 - INTEGER: 2
-Rule15 - BINARY:  -> int 1
+Rule15 - BINARY:  -> int 5
 Rule11 - LOGARITMUS: 
-0.000000
+2.321928
 ------------Syntax OK, LogOk------------
 Rule14 - INTEGER: 3
 Rule13 - HEXA:  -> int 170
 Rule11 - LOGARITMUS: 
 4.674805
 ------------Syntax OK, LogOk------------
-Rule15 - BINARY:  -> int 1
+Rule15 - BINARY:  -> int 3
 Rule13 - HEXA:  -> int 255
 Rule11 - LOGARITMUS: 
-inf
+5.043875
 ------------Syntax OK, LogOk------------
 Rule14 - INTEGER: 2
 Rule10
