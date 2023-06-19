@@ -55,11 +55,19 @@ b01*0xFF
 ((6+6)*b011)*(6+0xB1)
 
 #NĚCO UNIKÁTNÍHO
-#Průnik dvou polí, prvky nově vzniklého pole sečteme = x, uděláme log z čísla x o základu a (log_a-x) --> prunik([],[],a)
+#Průnik dvou polí, prvky nově vzniklého pole sečteme = x, uděláme log z čísla x o základu a (log_a-x) --> prunik([],[],a) # tohle ne
+#Průnik dvou polí, prvky nově vzniklého pole sečteme = x--> prunik([],[])
 
-prunik([3,7,8,2],[2,5,6,7],4)
-prunik([0xA,0x12,0xCB3,0xE45],[0xFF,0x345,0xA,0x12],0xAA)
-prunik([b100,b111,b10,b1010],[b10,b111,b1000,b001],b11)
-prunik([2,5,6,7],[b10,b111,b1000,b001],0xAA)
-prunik([2,5,6,7],[0xA,0x12,0xCB3,0xE45],b11)
-prunik([b100,b111,b10,b1010],[0xFF,0x345,0xA,0x12],10)
+prunik([3,7,8,2],[2,5,6,7])
+prunik([0xA,0x12,0xCB3,0xE45],[0xFF,0x345,0xA,0x12])
+prunik([b100,b111,b10,b1010],[b10,b111,b1000,b001])
+prunik([2,5,6,7],[b10,b111,b1000,b001])
+prunik([2,5,6,7],[0xA,0x12,0xCB3,0xE45])
+prunik([b100,b111,b10,b1010],[0xFF,0x345,0xA,0x12])
+
+#prunik([3,7,8,2],[2,5,6,7],4)
+#prunik([0xA,0x12,0xCB3,0xE45],[0xFF,0x345,0xA,0x12],0xAA)
+#prunik([b100,b111,b10,b1010],[b10,b111,b1000,b001],b11)
+#prunik([2,5,6,7],[b10,b111,b1000,b001],0xAA)
+#prunik([2,5,6,7],[0xA,0x12,0xCB3,0xE45],b11)
+#prunik([b100,b111,b10,b1010],[0xFF,0x345,0xA,0x12],10)
